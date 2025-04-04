@@ -5,13 +5,13 @@ import {Routes , Route } from 'react-router-dom'
 import Add from './pages/Add'
 import List from './pages/List'
 import Orders from './pages/Orders'
-import Login from './components/login'
+import Login from './components/Login'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/ReactToastify.css';
 
 
 export const backendUrl = import.meta.env.VITE_BACKEND_URL
-export const currency = '$'
+export const currency = '₨ '
 
 const App = () => {
 
