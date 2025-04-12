@@ -5,7 +5,7 @@ import { assets } from '../assets/assets'
 const Footer = () => {
   return ( 
     <div>
-        <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] ga[-14 my-10 mt-40 text-sm'>
+        <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
         
         <div >
             <img src={assets.logo} className='mb-5 w-32' alt="" />
@@ -16,7 +16,7 @@ const Footer = () => {
 
             <div>
                 <p className="text-xl font-medium mb-5">COMPANY</p>
-                <ul className="flex flex-col gap*1 text-gray-600">
+                <ul className="flex flex-col gap-1 text-gray-600">
                    <Link to='/'> <li>Home</li></Link>
                    <Link to='/about'> <li>About us</li></Link>
                     <Link to='/orders'><li>Delivery</li></Link>
